@@ -6,6 +6,19 @@ import java.util.Scanner;
 
 
 public class arrayListPractice {
+
+    public static void sumOfEven(ArrayList<Integer> List){
+        int sum = 0;
+
+        for(int i =0; i < List.size(); i++){
+            if(List.get(i) % 2 == 0) {
+                sum += List.get(i);
+            }
+        }
+        System.out.println("Total for numList: " + sum);
+    }
+
+
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
@@ -21,16 +34,8 @@ public class arrayListPractice {
         numList.add(9);
         numList.add(10);
 
-        int sum = 0;
+        sumOfEven(numList);
 
-
-
-
-
-        for(int i =0; i< numList.size(); i++){
-            sum += numList.get(i);
-        }
-        System.out.println("Total for numList: " + sum);
 
         ArrayList<String> words = new ArrayList<>();
         words.add("cat");
@@ -49,8 +54,5 @@ public class arrayListPractice {
                 System.out.println(words.get(i));
             }
         }
-
-
-
     }
 }
