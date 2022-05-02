@@ -9,17 +9,17 @@ public class Course {
     private HashMap<String, String> student = new HashMap<String, String>();
 
     public String getName(){
-        return name;
+        return this.name;
     }
-    public void setName(String aName){
-        name = aName;
+    public void setName(String name){
+        this.name = name;
     }
     //------------------------------------------------------------
     public int getClassTime(){
-        return classTime;
+        return this.classTime;
     }
-    public void setClassTime(int aClassTime){
-        classTime = aClassTime;
+    public void setClassTime(int classTime){
+        this.classTime = classTime;
     }
     //-------------------------------------------------------------
 
@@ -27,9 +27,8 @@ public class Course {
         return student;
     }
 
-
-    public void setStudent(HashMap<String, String> aStudent) {
-        student = aStudent;
+    public void setStudent(HashMap<String, String> student) {
+        this.student = student;
     }
 
     //--------------------------------------------------------------

@@ -1,11 +1,11 @@
 package org.launchcode.java.demos.lsn3classes1;
 
 import org.launchcode.java.demos.lsn3classes1.school.Course;
+import org.launchcode.java.demos.lsn3classes1.school.Student;
 import org.launchcode.java.demos.lsn3classes1.school.Teacher;
 
-import java.sql.SQLOutput;
+
 import java.util.HashMap;
-import java.util.Map;
 
 public class SchoolPractice {
 
@@ -29,7 +29,7 @@ public class SchoolPractice {
         course1.setClassTime(700);
 
         HashMap<String, String> student = course1.getStudent();
-        String newStudent = "Chris";
+        //String newStudent = "Chris";
         String newStudentLast = "Ortega";
         student.put(student1.getName(), newStudentLast);
         student.put(student2.getName(), newStudentLast);

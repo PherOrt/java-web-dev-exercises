@@ -7,32 +7,32 @@ public class Teacher {
     private int yearsTeaching;
 
     public String getFirstName(){
-        return firstName;
+        return this.firstName;
     }
-    public void setFirstName(String aFirstName){
-        firstName = aFirstName;
+    public void setFirstName(String firstName){
+        this.firstName = firstName;
     }
     //---------------------------------------------
     public String getLastName(){
-        return lastName;
+        return this.lastName;
     }
-    public void setLastName(String aLastName){
-        lastName = aLastName;
+    public void setLastName(String lastName){
+        this.lastName = lastName;
     }
     //--------------------------------------------
     public String getSubject(){
-        return subject;
+        return this.subject;
     }
-    public void setSubject(String aSubject){
-        subject = aSubject;
+    public void setSubject(String subject){
+        this.subject = subject;
     }
     //--------------------------------------------
     public int getYearsTeaching(){
         return yearsTeaching;
     }
 
-    public void setYearsTeaching(int aYearsTeaching) {
-        yearsTeaching = aYearsTeaching;
+    public void setYearsTeaching(int yearsTeaching) {
+        this.yearsTeaching = yearsTeaching;
     }
     //--------------------------------------------
     public void Teacher(String firstName, String lastName, String subject, int yearsTeaching){
